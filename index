@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo 1 - Primeiros passos em HTML</title>
+</head>
+<body>
+
+    <h1><i>Modulo 1 - Primeiros passos em HTML</i></h1>
+    <hr>
+    <h2><strong>Indice</strong></h2>
+    
+    <ul>
+        <li><a href="#Surgimento">Surgimento dos Primeiros Computadores e a Internet</a></li>
+        <li><a href="#Client">Client X Server</a></li>
+        <li><a href="#Html">O que é HTML</a></li>
+        <li><a href="#tags">Tags</a></li>
+        <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+        <li><a href="#links">Links de referencia</a></li>
+    </ul>
+
+<h2 id="Surgimento"><strong>Surgimento dos primeiros Computadores e a Internet</strong></h2>
+
+<p> <i><strong>Os computadores de primeira geração</strong></i><br/> Foram criados na decada de 50 e funcionavam por meio de circuitos e válvulas eletrônicas.<br/> Possuíam o uso restrito, além de serem imensos de tamanho e consumirem muita energia.<br/></p>
+
+    <p><i><strong>Segunda Geração (1960-1965)</strong></i><br/>
+    Ainda eram muito grandes e funcionavam por meio de transistores. Nesse período já começam a se espalhar o uso comercial.<br/></p>
+    
+   <p><i><strong>Terceira Geração (1965-1975)</strong></i><br/>
+   terceira geração de computadores já funcionavam por circuitos integrados,<br/> que substituíram os transistores e já apresentavam um tamanho menor e uma capacidade maior de processamento.<br/></p> 
+    
+    <i><strong>Proxima geração (usada até os dias de hoje)</strong></i> <br/> foram desenvolvidas em tamanho menor (como os que conhecemos hoje) e  aumentaram a capacidade de processamento de dados.
+    
+    <h3>Historia da Internet</h3>
+    <p>A internet surgiu na época da guerra fria, numa disputa tecnológica entre os Estados unidos e a antiga União soviética. após o lançamento do promeiro satellite artificial, pela unição soviética.<br/> Fez com que os estados unidos desenvolvesse um projeto que resultaria na criação da internet, uma rede chamada Arpanet, <br/> criada para envio de informações entre centro de pesquisas e instalações militares.
+
+        <br/>Na década de 80 a internet se expandiu para fins comercias.<br/>
+        
+        Em 1990 com a criação da NSFNET fez com que a arpanet fosse descontinuada. com os avanços da tecnologia foi criada um sistema de distribuição documentação chamada de world wide web(www) <br/> que permitiu que a internet fosse usada para fins privados e comerciais.
+        
+       <br/> Em 1993 foi criado o Mosaic, o primeiro navegador web popular. Em 1995 a  Microsoft licenciou o código do antigo Mosaic e criou sua própria janela para a web, o Internet Explorer.<BR/>
+        Outros competidores surgiram durante o final dos anos 90 e início dos anos 2000, incluindo Opera, Safari e Google Chrome. O Microsoft Edge substituiu o Internet Explorer com o lançamento do Windows 10 em 2015.
+        </p>
+
+        <H2>Diferença entre Client e Server</H2>
+        <h4><i>SERVER</i></h4>
+       
+        <p>Um servidor é um recurso dentro de um sistema computacional, capaz de processar aplicações, armazenar dados e prestar serviços.</p>
+
+        <h4><i>CLIENT</i></h4>
+        <P>É um computador (usuário) que solicita serviços e recursos armazenados no servidor.</P>
+        <img src="imageclientxserver.webp">
+
+<h2><strong>O que é HTML</strong></h2>
+    <p>HTML, significa HyperText Markup Language(Linguagem de Marcação de Hipertexto, em português), é a linguagem padrão para a criação de páginas web, desde sua criação por Tim Berners-Lee em 1991.
+       <br/> O objetivo de  Tim Berners-Lee na criação do HTML era dar significado e organizar as informações de uma página na web. Sem isso, o navegador não saberia exibir textos ou carregar imagens e outros conteúdos. permitindo a criação de documentos interligados por hyperlinks, que são fáceis de acessar e navegar.
+    </p>
+    <p> A estrutura Basica de um documento HTML é composto de elementos, representados por tags, como: </p>
+ <ul>
+    <li><'title'> (titulo) Define o título</li> 
+    <li><'head'> (cabeça) Local para declarar todas informações, como título e dados da sua página</li> 
+    <li><'body'>(corpo)Local para declarar todos os elementos que irão compor o corpo da página</li>
+ </ul>
+
+<h2><strong>Tags</strong></h2>
+    <p> As tags são códigos que definem toda a estrutura da página, tais como o seu tamanho, a fonte da letra, as cores, as quebras de linha e etc.<br/> A maioria dos elementos do documento HTML são compostos por uma estrutura de abertura e uma de fachamento, como <'tag'> e <'/tag'>. Há também tags de estrutura única, como a  tag <'br/> que realiza uma quebra de linha.</p>
+ <P>Aqui esta alguns exemplos de tags:</P>
+ <ul>
+    <li><'h1>,<'h2>,<'h3>,<'h4>,<'h5 >e <'h6> Tags para definir um título e subtítulos,<br/> variando de 1 a 6, sendo h1 o título mais importante e h6 o de menor importância;</li>
+    <li><'p> Tag para definir um parágrafo</li>
+    <li><'a> Tag de link,</li>
+    <li><'ol> define uma lista ordenada;</li>
+    <li><'ul> define uma lista não ordenada;</li>
+    <li><'input> define os campos do formulário;</li>
+    <li><'img> permite inserir uma imagem no seu documento.</li>
+ </ul>
+<h2><strong>Listas Ordenadas e Não Ordenadas</strong></h2>
+ <p>A diferença entre a lista ordenada e a lista não-ordenada está na maneira com que os itens de cada lista são apresentados.<br/>
+    <p>As <strong>listas ordenadas</strong>  enumera os elementos;
+    usando as tags <'ol> e cada item da lista usando as <'li>.</p></p>
+    <p>As<strong> listas não-ordenada</strong> coloca marcadores antes de cada elemento.<br/>
+        usando as tags <'ul> e também usa a <'li> para cada item de lista.</p>
+
+<h2><strong>Links de referencia</strong></h2>
+<a href="https://pt.wikipedia.org/wiki/HTML" target="_self"><p>Wikipédia HTML</p></a>
+<a href="https://www.mozilla.org/pt-BR/firefox/browsers/browser-history/" target="_self"><p>Historia da web mozilla.com</p></a>
+<a href="https://pt.stackoverflow.com/questions/405299/qual-a-diferen%C3%A7a-entre-client-server-e-three-tiers" target="_self"><p>Client e Server Stack Overflow</p></a>
+   <hr> 
+<footer>Primeiros passos com HTML - DIO; <br/>Feito por Maristela Santos</footer>
+</body>
+</html>
